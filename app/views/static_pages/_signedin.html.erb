@@ -1,0 +1,64 @@
+Signed In User Page
+</br></br>
+
+<div class="row">
+	<div class="span12">
+		<h1>These are your active gifts!</h1>
+	</div>
+</div>
+
+</br></br>
+
+<div class="row">
+	<div class="span3">
+		GiftOne
+	</div>
+	<div class="span3">
+		GiftTwo
+	</div>
+	<div class="span3">
+		GiftThree
+	</div>
+	<div class="span3">
+		GiftFour
+	</div>
+</div>
+
+
+
+
+</br></br>
+
+<div class="row" style="background-color:grey; height:2px;">
+</div>
+
+</br></br>
+
+
+
+<div class="row">
+	<div class="span6">
+		
+		<p>Create a gift!</p>
+		
+		<%= form_for(@gift) do |f| %>
+		
+		<%= f.label :name %>
+		<%= f.text_field :name %>
+		
+		<%= f.label :item %>
+		<%= f.text_field :item%>
+		
+		<%= f.label :message %>
+		<%= f.text_area :message%>
+		
+		<%= f.submit "Create my Gift!", class: "btn btn-large btn-success", method: :post %>
+		
+		<% end %>
+		
+	</div>
+	
+	<div class="span6">
+		These are your friends gifting!
+	</div>
+</div>

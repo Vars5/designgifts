@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  item: MyString
+  message: MyString
+  owner_id: 1
+  gifter_id: 1
+
+two:
+  name: MyString
+  item: MyString
+  message: MyString
+  owner_id: 1
+  gifter_id: 1

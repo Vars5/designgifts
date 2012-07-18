@@ -1,0 +1,19 @@
+<h1>Gifts</h1>
+</br>
+
+<% if user_signed_in? %>
+
+<div class ="btn">
+	<%= link_to "Create a New Gift" %>
+</div>
+
+<div class= "btn">
+	<%= link_to "View your Gifts" %>
+</div>
+
+<% else %>
+</br>
+
+<p><%= @gift %>
+
+<% end %>
