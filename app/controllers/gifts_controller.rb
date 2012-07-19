@@ -10,6 +10,7 @@ class GiftsController < ApplicationController
   end
   
   def index
+    
   end
 
   def show
